@@ -1,4 +1,5 @@
 gameWebServer/venv
+gameWebServer/__pycache__
 
 # Logs
 logs

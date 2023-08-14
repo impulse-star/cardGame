@@ -8,7 +8,9 @@ if not sys.prefix != sys.base_prefix:
 
 
 def main():
-    print('Hello world')
+    import gameServerAPI
+    gameServerAPI.run()
+    print('Program Started')
 
 
 if __name__ == '__main__':
