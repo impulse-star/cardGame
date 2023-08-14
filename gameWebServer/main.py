@@ -1,4 +1,5 @@
 import sys
+import gameServerAPI
 
 
 if not sys.prefix != sys.base_prefix:
@@ -8,9 +9,9 @@ if not sys.prefix != sys.base_prefix:
 
 
 def main():
-    import gameServerAPI
+    print("Server Coming Online.")
     gameServerAPI.run()
-    print('Program Started')
+    print('Server Has Shut Down.')
 
 
 if __name__ == '__main__':
