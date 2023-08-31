@@ -1,5 +1,6 @@
 gameWebServer/venv
 gameWebServer/__pycache__
+gameWebServer/flower.webm
 
 # Logs
 logs
